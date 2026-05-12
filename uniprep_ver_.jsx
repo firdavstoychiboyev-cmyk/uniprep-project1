@@ -1,3 +1,4 @@
+import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer as RechartsContainer, LineChart, Line } from 'recharts';
 import React from 'react';
 import { useState, useEffect, useRef } from "react";
 
