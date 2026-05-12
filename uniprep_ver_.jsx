@@ -11,8 +11,6 @@ import {
   LineChart, 
   Line 
 } from 'recharts';
-
-// Если в коде используются иконки Lucide, добавь и их (на всякий случай):
 import * as LucideIcons from 'lucide-react';
 /* ── KaTeX (robust loader) ─────────────────────────────────────────────── */
 let _kReady = false; const _kQ = [];
