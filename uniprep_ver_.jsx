@@ -954,5 +954,4 @@ export default function App() {
       {toast&&<div style={{position:"fixed",bottom:24,left:"50%",transform:"translateX(-50%)",background:"#0F172A",color:"#fff",padding:"10px 20px",borderRadius:100,fontSize:12,fontWeight:700,zIndex:9999,animation:"fadeup .2s",whiteSpace:"nowrap",fontFamily:"'Montserrat',sans-serif"}}>{toast}</div>}
     </div>
   );
-}
-export default App;
+export default UniPrep;
