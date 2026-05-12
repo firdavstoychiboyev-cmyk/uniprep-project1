@@ -1,17 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import * as Recharts from 'recharts';
-import { 
-  ResponsiveContainer, 
-  AreaChart, 
-  Area, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Tooltip, 
-  LineChart, 
-  Line 
-} from 'recharts';
 import * as LucideIcons from 'lucide-react';
+import { 
+  ResponsiveContainer, AreaChart, Area, XAxis, YAxis, 
+  CartesianGrid, Tooltip, LineChart, Line 
+} from 'recharts';
+mport { 
+  Search, Bell, User, LayoutDashboard, BookOpen, 
+  Calendar, Settings, LogOut, Menu, X, 
+  ChevronRight, Star, Clock, CheckCircle2 
+} from 'lucide-react';
 /* ── KaTeX (robust loader) ─────────────────────────────────────────────── */
 let _kReady = false; const _kQ = [];
 function loadKaTeX(cb) {
