@@ -1,7 +1,19 @@
-import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer as RechartsContainer, LineChart, Line } from 'recharts';
-import React from 'react';
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import * as Recharts from 'recharts';
+import { 
+  ResponsiveContainer, 
+  AreaChart, 
+  Area, 
+  XAxis, 
+  YAxis, 
+  CartesianGrid, 
+  Tooltip, 
+  LineChart, 
+  Line 
+} from 'recharts';
 
+// Если в коде используются иконки Lucide, добавь и их (на всякий случай):
+import * as LucideIcons from 'lucide-react';
 /* ── KaTeX (robust loader) ─────────────────────────────────────────────── */
 let _kReady = false; const _kQ = [];
 function loadKaTeX(cb) {
