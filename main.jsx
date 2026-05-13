@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './uniprep_ver_.jsx' // Проверь, что имя файла именно такое!
+import App from './uniprep_ver_.jsx' // This is your main component
+import './index.css'
+import { Analytics } from "@vercel/analytics/react" // <--- ADD THIS
 
-const rootElement = document.getElementById('root');
-if (rootElement) {
-  ReactDOM.createRoot(rootElement).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+    <Analytics /> {/* <--- ADD THIS */}
+  </React.StrictMode>,
+)
