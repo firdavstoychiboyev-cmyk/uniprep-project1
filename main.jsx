@@ -1,4 +1,5 @@
 import React from 'react'
+npm i @vercel/speed-insights
 import ReactDOM from 'react-dom/client'
 import App from './uniprep_ver_.jsx' // This is your main component
 import './index.css'
